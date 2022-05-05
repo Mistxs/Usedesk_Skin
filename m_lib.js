@@ -73,4 +73,4 @@ parent.insertBefore(p, before);
 
 
 /* new commit changes */
-alert("работает")
+alert("еще как работает")
