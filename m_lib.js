@@ -32,7 +32,8 @@ parent.insertBefore(p, before);
       check = true;
     }
   }
-
+  
+  
   function backToTop() {
     upDownBtn.classList.add('up_down_btn-disabled');
     if (!check) {
@@ -71,4 +72,5 @@ parent.insertBefore(p, before);
 /* end Up-Down button  */
 
 
-
+/* new commit changes */
+alert("работает")
