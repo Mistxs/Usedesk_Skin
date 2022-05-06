@@ -74,3 +74,5 @@ parent.insertBefore(p, before);
 
 /* new commit changes */
 alert("еще как работает")
+
+/* а вообще не работает */
