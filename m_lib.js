@@ -71,5 +71,4 @@ parent.insertBefore(p, before);
 })();
 /* end Up-Down button  */
 
-Через сколько обновляется файл таким образом?
 
