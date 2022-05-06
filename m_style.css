@@ -2,4 +2,221 @@
 v. 0.2.0 
 */
 
-body {display: none;}
+
+
+.page-container .main-content {
+    background: url(https://kartinkin.net/uploads/posts/2021-07/1626160768_65-kartinkin-com-p-fon-dlya-chata-telegramm-krasivo-65.png)!important;
+
+}
+
+.top-tags {
+    display: none!important;
+}
+/*
+#ticket-fields-form-alt > div.row {
+    display: none!important; 
+    position: absolute;
+    right: -265px;
+    top: 450px;
+    width: 270px;
+    z-index: 999!important;
+}
+*/
+#ticket-fields-form-alt > div.row > div:nth-child(1), #ticket-fields-form-alt > div.row > div:nth-child(2), #ticket-fields-form-alt > div.row > div:nth-child(3), #ticket-fields-form-alt > div.row > div:nth-child(4), #ticket-fields-form-alt > div.row > div:nth-child(7)
+{ display: none!important;
+    
+}
+
+#ticket-fields-form-alt > div.row > div:nth-child(4)
+#ticket-fields-form-alt > div.row {
+    margin-bottom: 20px!important;
+    background: #30364121!important;
+}
+.popover-title {
+   line-height: unset!important;
+    background: none!important;
+    border: none!important;
+    font-size: 14px!important;
+    font-weight: initial!important;
+    border-radius: unset!important;
+}
+
+#ticket-fields-form-alt > div.row > div > div > div > div.editable_input_container > div.editable-input input {
+background: none!important;
+    border: none!important;
+    padding: 0!important;
+    font-size: 14px!important;
+    font-weight: 500!important;
+}
+
+#ticket-fields-form-alt > div.row > div > div > div > div.editable_input_container > div.editable-buttons 
+{
+    display: none!important;
+}
+
+.article-search__container {
+    display: none;
+}
+
+.mail-env .mail-body .mail-text {
+    padding: 10px 10px 15px;
+    background: aliceblue;
+    font-size: 14px!important;
+    /* border: 2px solid; */
+}
+
+.from-client
+{
+    background: #fefefe8c!important;
+}
+
+.from-user 
+{
+background: #cbcbcbb0!important;
+}
+
+
+.mail-env {
+    position: relative;
+    background: #ffffffcf;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%)!important;
+    border-radius: 20px!important;
+
+}
+
+
+.redactor-editor {
+  
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%)!important;
+    /* border-radius: 20px!important; */
+    font-size: 14px!important;
+    line-height: 1.6em;
+        background: #f2f3f3!important;
+}
+
+
+div.breadcrumbs-wrapper {
+    display: none!important;
+}
+
+
+/*.form-group__relative {
+    position: fixed!important;
+    bottom: 0!important;
+    width: 100%!important;
+    padding-right: 400px!important;
+}
+*/
+
+
+.item-being-copied {
+    font-size: 14px!important;
+}
+
+.redactor-editor:hover {
+   -webkit-box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09)!important;
+-moz-box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09)!important;
+box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09)!important;
+    -webkit-transition: box-shadow 0.5s, -webkit-transform 0.5s;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+
+.redactor-editor:focus {
+    -webkit-box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09);
+-moz-box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09);
+box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09);
+    background: #fcfbfb!important;
+    -webkit-transition: background 0.5s, box-shadow 0.5s, -webkit-transform 2s;
+    transition: background 0.5s, box-shadow 0.5s, transform 2s;
+}
+
+#right_resize_container {
+    left: 0!important;
+    min-width: 200px;
+    width: 25%;
+    flex-shrink: 0;
+    /* margin-top: 10px; */
+    max-width: calc(100% - 600px);
+    width: 100%!important;
+    position: relative;
+    left: unset!important;
+    max-width: unset;
+    padding-right: 30px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#right_resize_container > div.panel.panel-primary > div.panel-body.form-horizontal > div.text-center
+{
+    display: none;
+}
+
+#right_resize_container > div.panel.panel-primary > div.panel-body.form-horizontal div
+{
+    display: block;
+}
+
+#ticket_detail_container {
+    display: block!important;
+}
+
+#left_resize_container {
+    width: 100%!important;
+}
+
+
+.mail-text-private {
+    background-color: #FCF8E3!important;
+}
+
+
+.btn-reply-message__tab-hide {
+    background-color: #fff0!important;
+    color: #9999a2!important;
+}
+
+.btn-reply-message__tab {
+    display: inline-block!important;
+    min-width: 150px!important;
+    background-color: white;
+    border-radius: 10px 10px 0 0px;
+    margin-left: -1px!important;
+    margin-bottom: -1px!important;
+    height: 32px!important;
+}
+
+
+/* для кнопочки назад-вперед */
+
+#backtop {
+position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background: #21a9e1;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: solid;
+    border: 10px;
+    border-color: #00a651;
+    box-shadow: 1px 1px 1px 1px #116b9142;
+}
+
+#backtop:hover {
+      background: #00a651;
+    box-shadow: 1px 1px 1px 1px #00a651ab;
+}
+
+#backtop {
+  display: block;
+}
+
