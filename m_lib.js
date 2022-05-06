@@ -72,13 +72,4 @@ parent.insertBefore(p, before);
 /* end Up-Down button  */
 
 
-/* new commit changes */
-alert("еще как работает")
-
-/* а вообще не работает */
-
-/* проверка через app */
-
-еще раз проверяем
-
-и еще разок
+я заставлю эту бодягу работать
