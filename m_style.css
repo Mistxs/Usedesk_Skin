@@ -188,6 +188,12 @@ box-shadow: 2px 5px 10px 2px rgba(34, 60, 80, 0.09);
     height: 32px!important;
 }
 
+.modal-footer {
+    position: absolute;
+    top: -25px;
+    right: 45px;
+}
+
 
 /* для кнопочки назад-вперед */
 
