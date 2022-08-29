@@ -1,5 +1,5 @@
 /* Main stylesheet for Usedesk 
-v. 0.2.0 
+v. 0.3.0 
 */
 
 
@@ -22,10 +22,10 @@ v. 0.2.0
     z-index: 999!important;
 }
 */
-#ticket-fields-form-alt > div.row > div:nth-child(1), #ticket-fields-form-alt > div.row > div:nth-child(2), #ticket-fields-form-alt > div.row > div:nth-child(3), #ticket-fields-form-alt > div.row > div:nth-child(4), #ticket-fields-form-alt > div.row > div:nth-child(7)
+/*#ticket-fields-form-alt > div.row > div:nth-child(1), #ticket-fields-form-alt > div.row > div:nth-child(2), #ticket-fields-form-alt > div.row > div:nth-child(3), #ticket-fields-form-alt > div.row > div:nth-child(4), #ticket-fields-form-alt > div.row > div:nth-child(7)
 { display: none!important;
     
-}
+}*/
 
 #ticket-fields-form-alt > div.row > div:nth-child(4)
 #ticket-fields-form-alt > div.row {
@@ -48,7 +48,7 @@ background: none!important;
     font-size: 14px!important;
     font-weight: 500!important;
 }
-
+/*
 #ticket-fields-form-alt > div.row > div > div > div > div.editable_input_container > div.editable-buttons 
 {
     display: none!important;
@@ -57,7 +57,7 @@ background: none!important;
 .article-search__container {
     display: none;
 }
-
+*/
 .mail-env .mail-body .mail-text {
     padding: 10px 10px 15px;
     background: aliceblue;
@@ -96,11 +96,11 @@ background: #cbcbcbb0!important;
         background: #f2f3f3!important;
 }
 
-
+/*
 div.breadcrumbs-wrapper {
     display: none!important;
 }
-
+*/
 
 /*.form-group__relative {
     position: fixed!important;
