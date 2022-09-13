@@ -2,7 +2,19 @@
 v. 0.3.0 
 */
 
+/* кнопочки перехода из форм */
+#problem {
+    display: block;
+    float: right;
+}
 
+#problem img {
+        height: 20px;
+}
+
+input[data-id="18931"], input[data-id="19029"] {
+    width: 95%;
+}
 
 .page-container .main-content {
     background: url(https://kartinkin.net/uploads/posts/2021-07/1626160768_65-kartinkin-com-p-fon-dlya-chata-telegramm-krasivo-65.png)!important;

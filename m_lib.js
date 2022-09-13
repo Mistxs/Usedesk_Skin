@@ -72,3 +72,24 @@ parent.insertBefore(p, before);
 /* end Up-Down button  */
 
 
+/* кнопочки для перехода из форм */
+let ya_track = document.querySelector('div.editable-input input[data-id="19029"]');
+
+let ya_link = document.createElement('a');
+  ya_link.id = "problem";
+  ya_link.href = 'https://tracker.yandex.ru/'+ya_track.value;
+  ya_link.innerHTML = '<img src="https://img.icons8.com/fluency-systems-regular/344/external-link-squared.png">'
+  ya_link.target = "on_blank";
+
+ya_track.parentElement.insertBefore(ya_link,ya_track);
+
+
+let ud_problem = document.querySelector('div.editable-input input[data-id="18931"]');
+
+let link = document.createElement('a');
+  link.id = "problem";
+  link.href = 'https://secure.usedesk.ru/tickets/'+ud_problem.value;
+  link.innerHTML = '<img src="https://img.icons8.com/fluency-systems-regular/344/external-link-squared.png">'
+  link.target = "on_blank";
+
+ud_problem.parentElement.insertBefore(link, ud_problem);
