@@ -3,7 +3,7 @@ let before = document.querySelector('.main-content');
 
 let p = document.createElement('div');
 p.id = "backtop";
-p.innerHTML = '&uarr;';
+p.innerHTML = '&uarr;^';
 
 parent.insertBefore(p, before);
 
