@@ -3,23 +3,7 @@ let before = document.querySelector('.main-content');
 
 let p = document.createElement('div');
 p.id = "backtop";
-p.innerHTML = '<div class="container">
-  <div class="menu-toggle">
-    <span class="fa fa-plus"></span>
-  </div>
-  
-  <div class="menu-round">
-    <div class="btn-app">
-      <div class="fa fa-twitter"></div>
-    </div>
-    <div class="btn-app">
-      <div class="fa fa-facebook"></div>
-    </div>
-    <div class="btn-app">
-      <div class="fa fa- fa-wikipedia-w"></div>
-    </div>
-  </div> 
-</div>';
+p.innerHTML = '&uarr;';
 
 parent.insertBefore(p, before);
 
