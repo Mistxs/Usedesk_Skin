@@ -93,5 +93,3 @@ let link = document.createElement('a');
   link.target = "on_blank";
 
 ud_problem.parentElement.insertBefore(link, ud_problem);
-
-
